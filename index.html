@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class = "no-js">
+<head>
+    <meta charset = "utf-8">
+    <meta http-equip = "X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <meta name = "description" content = "">
+    <meta name = "author" content = "">
+    <title>PhotoBlock</title>
+    <link rel = "stylesheet" href = "css/css.css">
+    <!--[if lt IE 9]>
+        <script src = "http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src = "http://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]--> 
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/photoblock.js"></script> 
+    
+    <script>
+        
+        $(document).ready(function(){
+            var options = {
+                "direction": "horizontal",
+                "spacingImg": 15,
+                "spacingRowColumn": 15,
+                "optimalSize": 200
+            };
+            $(".photo-block-container").photoBlock(options);
+        });
+
+    </script>    
+</head>
+<body>
+    <div class = "container">
+        <div class = "photo-block-container">
+        <img src="img/01img.jpg" alt="Photo 1" class="photo-block-item" width = "346" height = "518"/>
+        <img src="img/02img.jpg" alt="Photo 2" class="photo-block-item" width='377' height = '564'/>
+        <img src="img/03img.jpg" alt="Photo 3" class="photo-block-item" width='367' height = '567'/>
+        <img src="img/04img.jpg" alt="Photo 4" class="photo-block-item" width='500' height = '630'/>
+        <img src="img/05img.jpg" alt="Photo 5" class="photo-block-item" width='700' height = '700'/>
+        <img src="img/06img.jpg" alt="Photo 6" class="photo-block-item" width='720' height = '480'/>
+        <img src="img/07img.jpg" alt="Photo 7" class="photo-block-item" width='600' height = '400'/>
+        <img src="img/08img.jpg" alt="Photo 8" class="photo-block-item" width='600' height = '900'/>
+        <img src="img/09img.jpg" alt="Photo 9" class="photo-block-item" width='750' height = '518'/>
+        <img src="img/10img.jpg" alt="Photo 10" class="photo-block-item" width='1000' height = '485'/>
+        <img src="img/11img.jpg" alt="Photo 11" class="photo-block-item" width='403' height = '519' />
+        <img src="img/12img.jpg" alt="Photo 12" class="photo-block-item" width='518' height = '699'/>
+        <img src="img/13img.jpg" alt="Photo 13" class="photo-block-item" width='750' height = '737'/>
+        <img src="img/14img.jpg" alt="Photo 14" class="photo-block-item" width='500' height = '667'/>
+        <img src="img/15img.jpg" alt="Photo 15" class="photo-block-item" width='604' height = '402'/>
+        </div>
+    </div>    
+</body>
+</html>
